@@ -1,3 +1,5 @@
+import CategoryItem from './components/category-item/category-item.component';
+
 import './App.css';
 
 const categories =[
@@ -27,11 +29,10 @@ function App() {
   return (
     <div className="App">
       {
-        categories.map(({title})=>{
+        categories.map((category)=>{
           return (
-            <div className='category-container'>
-              <h2>{title}</h2>
-              <p>Shop Now</p>
+            <div className='categories-container'>
+              <CategoryItem key={category.id} category={category}/>
             </div>
           )
         })
