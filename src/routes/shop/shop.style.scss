@@ -3,4 +3,13 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
     row-gap: 50px;
+
+    .shop-name{
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
 }

@@ -18,11 +18,9 @@ const Navigation = () => {
             <div className='navigation'>
                 <Link className='logo-container' to='/'>
                     <ShopLogo className='logo' />
+                    
                 </Link>
                 <div className='nav-links-container'>
-                    <Link className='nav-link' to='/shop'>
-                        SHOP
-                    </Link>
                     <CartIcon />
                 </div>
                 {isCartOpen && <CartDropdown/>}

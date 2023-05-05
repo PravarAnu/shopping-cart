@@ -11,6 +11,7 @@ const Shop = () => {
 
     return (
         <div className='products-container'>
+            <div className="shop-name">REACT SHOP</div>
             {products.map((product) => (
                 <ProductCard key={product.id} product={product} />
             ))}

@@ -28,4 +28,16 @@
       margin-left: auto;
       font-size: 36px;
     }
-  }
+
+    .no-item{
+      display: flex;
+      flex-direction: column;
+      margin: 50px;
+
+      .no-item-message{
+        font-size: 24px;
+        margin: 24px;
+        font-weight: bold;
+      }
+    }
+}
