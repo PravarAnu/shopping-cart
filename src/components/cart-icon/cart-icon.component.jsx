@@ -13,7 +13,7 @@ const CartIcon = () => {
     const toggleIsCartOpen = () => {
         setIsCartOpen(!isCartOpen);
 
-        
+        setTimeout(()=>{setIsCartOpen(false)},5000)
     };
 
     return (
